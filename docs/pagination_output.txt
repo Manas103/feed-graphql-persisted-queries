@@ -1,0 +1,3 @@
+---RESULTS---
+mode=cursor trials=1000 duplicates=0 skipped=0
+mode=offset trials=1000 duplicates=3997 skipped=0

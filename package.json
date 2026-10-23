@@ -1,0 +1,28 @@
+{
+  "name": "feed-graphql-persisted-queries",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile-pq": "tsx scripts/compile_persisted_queries.ts",
+    "bench:batching": "tsx bench/run_resolver_batching_bench.ts",
+    "bench:pagination": "tsx bench/run_pagination_bench.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "dataloader": "^2.2.2",
+    "graphql": "^16.9.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.0.1",
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "jsdom": "^25.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4",
+    "vitest": "^5.0.5"
+  }
+}

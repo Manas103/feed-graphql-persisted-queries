@@ -1,0 +1,5 @@
+---RESULTS---
+page_size=95 comments_per_post=10 num_users=50
+naive_db_calls=1237 naive_breakdown={"getFeedPage":2,"getLikeCount":95,"getUserById":1045,"getCommentsForPost":95}
+batched_db_calls=5 batched_breakdown={"getFeedPage":2,"getLikeCounts":1,"getUsersByIds":1,"getCommentsForPosts":1}
+results_identical=true

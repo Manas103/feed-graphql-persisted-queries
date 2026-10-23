@@ -1,0 +1,9 @@
+
+ RUN  v5.0.5 C:/Users/Manas/Downloads/Auto Job Applier/Total Job Application process flow/projects/feed-graphql-persisted-queries
+
+
+ Test Files  4 passed (4)
+      Tests  8 passed (8)
+   Start at  16:14:27
+   Duration  910ms (environment 85%, import 11%, tests 2%, transform 1%, worker 1%)
+

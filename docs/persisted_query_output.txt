@@ -1,0 +1,6 @@
+---RESULTS---
+persisted_query_id=6c3235c9ab287da98a0f3f2c191220e4b573eb85241b779dd99ce0643dbc6f13
+full_request_bytes=732
+persisted_request_bytes=111
+payload_reduction_pct=84.84
+fragment_count_compiled=4

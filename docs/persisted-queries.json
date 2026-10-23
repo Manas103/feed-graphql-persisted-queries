@@ -1,0 +1,3 @@
+{
+  "6c3235c9ab287da98a0f3f2c191220e4b573eb85241b779dd99ce0643dbc6f13": "query FeedRender($first: Int!, $after: String) {\n  feed(first: $first, after: $after) {\n    edges {\n      cursor\n      node {\n        ...FeedItemFields\n      }\n    }\n    pageInfo {\n      hasNextPage\n      endCursor\n    }\n  }\n}\n\nfragment AuthorFields on User {\n  id\n  name\n  avatarUrl\n}\n\nfragment CommentFields on Comment {\n  id\n  text\n  author {\n    ...AuthorFields\n  }\n}\n\nfragment CommentListFields on Post {\n  comments(first: 10) {\n    edges {\n      node {\n        ...CommentFields\n      }\n    }\n  }\n}\n\nfragment FeedItemFields on Post {\n  id\n  text\n  createdAt\n  likeCount\n  author {\n    ...AuthorFields\n  }\n  ...CommentListFields\n}"
+}
